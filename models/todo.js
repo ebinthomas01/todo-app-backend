@@ -15,6 +15,6 @@ const Schema = mongoose.Schema(
         "confirmpass":String
     }
 )
-
+//for todo app
 let todomodel=mongoose.model("todos",Schema);
 module.exports={todomodel}
